@@ -1,36 +1,254 @@
 {
-  "updatedAt": "2026-06-11T19:41:22.553Z",
-  "count": 3,
+  "updatedAt": "2026-06-11T20:11:39.558Z",
+  "count": 15,
   "jobs": [
     {
-      "id": "demo-1",
-      "title": "Product Manager — Digital Goods",
-      "company": "Grab",
-      "location": "Jakarta, Indonesia",
-      "source": "JSearch",
-      "link": "https://example.com",
-      "description": "Own product strategy, roadmap and execution for merchant digital goods. Manage stakeholders, KPIs, growth, agile delivery.",
-      "score": 88,
+      "id": "rem-2090881",
+      "title": "Business Transformation Lead",
+      "company": "Expion Health",
+      "location": "USA",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/artificial-intelligence/business-transformation-lead-2090881",
+      "description": "Title : Business Transformation Lead Location : Fully Remote Reports To : President, Service Growth Expion Health is building the future of pharmacy economics. As architects of prescription economics, we design how pharmacy value is created, aligning cost, clinical decisions, and performance into one accountable system that moves beyond rebates. We help organizations stay ahead of pharmacy market change with clear insight, bold thinking, and strategies built for what's next-leading the next era of prescription economics. The Role As our Business Transformation Lead , you'll be the architect and driver of how we embed AI into the way every team in our company works. This isn't a slide-deck strategy role. You'll be on the ground with department leaders, identifying real workflow opportunities, turning them into real solutions, and building the internal capability that makes the transformation stick. You'll lead our AI Champions program, partner directly with executive leadership, and own the roadmap that takes Expion Health from an organization that uses AI tools to one that runs on AI intelligence. If you've spent time figuring out how to make AI work in the real world - not just in theory - and you want to do it at a company that's fast, innovative, and genuinely committed to this, this role was built for you. What You'll Own Drive Transformation (65%) Own the AI transformation roadmap end-to-end - from strategy to execution - and keep it moving in a fast-paced environment Ru",
+      "posted": "2026-05-13",
+      "score": 67,
       "breakdown": {
-        "skills": 90,
-        "seniority": 80,
+        "skills": 33,
+        "seniority": 100,
         "location": 100
       },
       "status": "New",
       "firstSeen": "2026-06-11"
     },
     {
-      "id": "demo-2",
-      "title": "Senior Product Manager (Remote APAC)",
-      "company": "Sleek",
-      "location": "Remote",
+      "id": "rem-2090949",
+      "title": "High-Ticket Financial Sales Specialist & Team Lead Track",
+      "company": "FSE LLC",
+      "location": "Worldwide",
       "source": "Remotive",
-      "link": "https://example.com",
-      "description": "End-to-end product ownership, B2B SaaS, work from anywhere in APAC. Roadmap, metrics, cross-functional.",
-      "score": 82,
+      "link": "https://remotive.com/remote-jobs/sales/high-ticket-financial-sales-specialist-team-lead-track-2090949",
+      "description": "Position: Account Executive / B2B Sales Specialist Compensation: 100% Commission (Uncapped Earning Potential) Location: Remote (Global) About Funding Solutions Experts (FSE) At FSE, we deliver elite capital solutions to high-growth businesses. We operate in a fast-paced, high-stakes environment where excellence is the standard, not the exception. We do not offer a \"comfortable\" corporate safety net; instead, we provide a launchpad for the top 1% of sales professionals who want absolute control over their financial destiny through a pure meritocracy. If you are a self-motivated Closer who thrives in a high-volume, performance-driven environment, this is your opportunity to build an empire. The Mission: Execute. Close. Lead. High-Volume B2B Engagement: Conduct focused outbound campaigns (Monday – Friday) targeting business owners and C-suite executives. Pipeline Management: Manage high-ticket financial sales cycles from initial contact to close, maintaining an authoritative and consultative approach. Accelerated Leadership Path: We are scouting future Team Leaders. Once you consistently hit your benchmarks, you will be given the autonomy to recruit, train, and scale your own regional \"Pod.\" You will earn direct overrides on every transaction your team closes. Candidate Profile: The Top 1% Commanding Communication: Your professional business English is flawless, authoritative, and persuasive. You don't just pitch; you influence key decision-makers. Relentless Execution: You poss",
+      "posted": "2026-06-09",
+      "score": 63,
       "breakdown": {
-        "skills": 85,
+        "skills": 25,
         "seniority": 100,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090899",
+      "title": "Staff Product Engineer (Florianópolis)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2090899",
+      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for t",
+      "posted": "2026-05-27",
+      "score": 59,
+      "breakdown": {
+        "skills": 33,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090900",
+      "title": "Staff Product Engineer (Belo Horizonte)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2090900",
+      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for",
+      "posted": "2026-05-27",
+      "score": 59,
+      "breakdown": {
+        "skills": 33,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090901",
+      "title": "Staff Product Engineer (Porto Alegre)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-porto-alegre-2090901",
+      "description": "This is a remote role for candidates located in Porto Alegre, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for t",
+      "posted": "2026-05-27",
+      "score": 59,
+      "breakdown": {
+        "skills": 33,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090902",
+      "title": "Staff Product Engineer (Campinas)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2090902",
+      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for the o",
+      "posted": "2026-05-26",
+      "score": 59,
+      "breakdown": {
+        "skills": 33,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090890",
+      "title": "Staff Product Engineer (São Paulo)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2090890",
+      "description": "This is a remote role for candidates located in São Paulo (Brazil) About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for the ",
+      "posted": "2026-05-21",
+      "score": 59,
+      "breakdown": {
+        "skills": 33,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-1919266",
+      "title": "Senior Independent AI Engineer / Architect",
+      "company": "A.Team",
+      "location": "Americas, Europe, Israel",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+      "description": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startups, enterprises, and global companies. Since 2020, builders in the network have earned more than $200M working with companies including Lyft, Google X, HCA, Unilever, Sightful, D-ID, and others. The Work You'll join small teams solving real problems. Not demos. Not proof-of-concepts that never ship. Not another thin wrapper around an API. Recent work has included: AI-native products built from 0→1 Agent architectures and orchestration systems Enterprise AI deployments Retrieval, evaluation, and reliability infrastructure LLM-powered workflows and products Machine learning platforms operating at scale You'll work directly with founders, CTOs, and product leaders, helping shape both technical direction and execution. Why Builders Join The best opportunities rarely make it to the open market. A.Team exists to solve that. No bidding. No prospecting. No race to the bottom. Just ambitious companies, difficult problems, and experienced peers. Who Thrives Here People who have already shipped. Engineers who have deployed AI systems into production, understand the tradeoffs behind the hype, and know how to turn technical complexity into business value. What matters is a track record of building and shipping. The",
+      "posted": "2026-05-16",
+      "score": 59,
+      "breakdown": {
+        "skills": 17,
+        "seniority": 100,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090887",
+      "title": "Mid/Senior AI Cinematic Video Editor",
+      "company": "EverAI",
+      "location": "Worldwide",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887",
+      "description": "Our Vision Products 🚀 EverAI — Building the Future of AI Companionship One of the Top 15 Largest Fastest-Growing AI Companies in the World 50 Million Users in 2 years — Help Us Reach 100M first, 500M next At EverAI , we’re shaping what it means to connect with AI. With 50 million users and counting , we're not just building products — we're creating entirely new categories. Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first . And we’re only just getting started! Our Team We are an enthusiastic, passionate and hardworking team of ≈ 75 people. Our founding team has strong entrepreneurial experience building and scaling web products from 0 to IPO. Alexis Soulopoulos [CEO] • 10+ years in Tech Executive Leadership • Co-Founder Mad Paws Holdings (from 0 to IPO) • Forbes 30 under 30 + Deloitte TechFast50 ’22 ‘23 Michael Monin [Co-founder CTO] • 10+ years as CTO / COO (web2/web3), 1+ year in AI/LLM • Serial-entrepreneur: MTK Digital (exited / 0- $20m revenue) and Zipchat (AI Chatbot for E-commerce brands) Thomas Lacroix [Co-founder CMO] • 8+ years in Customer Acquisition E-commerce Growth • Serial-entrepreneur: Curatible (sold to Blackstone) and MTK Digital (exited / 0- $20m revenue) Maruša Fasano [CFO/Legal] • 25+ years in Finance, Strategy, M A • Ex-CFO/M A @Curatible (e",
+      "posted": "2026-05-19",
+      "score": 56,
+      "breakdown": {
+        "skills": 42,
+        "seniority": 100,
+        "location": 40
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090910",
+      "title": "Staff Software Engineer, Product (Belo Horizonte)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2090910",
+      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship somethin",
+      "posted": "2026-06-02",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090911",
+      "title": "Staff Software Engineer, Product (Florianópolis)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2090911",
+      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something",
+      "posted": "2026-06-02",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090909",
+      "title": "Staff Software Engineer, Product (Porto Alegre)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-porto-alegre-2090909",
+      "description": "This is a remote role for candidates located in Porto Alegre, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something",
+      "posted": "2026-06-02",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090912",
+      "title": "Staff Software Engineer, Product (São Paulo)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2090912",
+      "description": "This is a remote role for candidates located in São Paulo. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something safely, yo",
+      "posted": "2026-06-02",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090913",
+      "title": "Staff Software Engineer, Product (Campinas)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2090913",
+      "description": "This is a remote role for candidates located in Campinas (Brazil) About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something saf",
+      "posted": "2026-06-02",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
         "location": 100
       },
       "status": "New",
