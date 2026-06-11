@@ -1,0 +1,39 @@
+name: Harvest jobs
+
+on:
+  schedule:
+    # Every 8 hours (00:00, 08:00, 16:00 UTC) — ~90 runs/month, stays in free limits
+    - cron: "0 */8 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write          # allows committing data/jobs.json back to the repo
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run harvester
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}   # optional; safe if unset
+        run: node scripts/harvest.mjs
+
+      - name: Commit updated jobs
+        run: |
+          git config user.name  "job-radar-bot"
+          git config user.email "actions@github.com"
+          git add data/jobs.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update jobs ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
