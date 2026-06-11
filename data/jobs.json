@@ -1,0 +1,57 @@
+{
+  "updatedAt": "2026-06-11T19:41:22.553Z",
+  "count": 3,
+  "jobs": [
+    {
+      "id": "demo-1",
+      "title": "Product Manager — Digital Goods",
+      "company": "Grab",
+      "location": "Jakarta, Indonesia",
+      "source": "JSearch",
+      "link": "https://example.com",
+      "description": "Own product strategy, roadmap and execution for merchant digital goods. Manage stakeholders, KPIs, growth, agile delivery.",
+      "score": 88,
+      "breakdown": {
+        "skills": 90,
+        "seniority": 80,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "demo-2",
+      "title": "Senior Product Manager (Remote APAC)",
+      "company": "Sleek",
+      "location": "Remote",
+      "source": "Remotive",
+      "link": "https://example.com",
+      "description": "End-to-end product ownership, B2B SaaS, work from anywhere in APAC. Roadmap, metrics, cross-functional.",
+      "score": 82,
+      "breakdown": {
+        "skills": 85,
+        "seniority": 100,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "demo-3",
+      "title": "Business Operations Manager",
+      "company": "EdTech Co",
+      "location": "Jakarta",
+      "source": "JSearch",
+      "link": "https://example.com",
+      "description": "Operations, revenue, partnerships, learning platform, data-driven, KPI tracking.",
+      "score": 74,
+      "breakdown": {
+        "skills": 70,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "Saved",
+      "firstSeen": "2026-06-10"
+    }
+  ]
+}
