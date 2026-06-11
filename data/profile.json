@@ -1,0 +1,37 @@
+{
+  "name": "Daniel Ananda Asakarunia",
+  "contact": "Jakarta, Indonesia | (+62) 821-1313-0345 | danielasakarunia@gmail.com | linkedin.com/in/danielananda",
+  "headline": "Product Manager — EdTech & GovTech | national-scale learning platforms, operations & growth",
+  "summary": "Product Manager with experience building large-scale digital learning platforms and managing cross-functional teams across product, operations, and strategy. Experienced in delivering data-driven product improvements, managing nationwide education platforms with hundreds of thousands of users, and collaborating with government stakeholders.",
+  "education": "Bachelor of Psychology — University of Indonesia",
+
+  "skillKeywords": [
+    "product management", "product manager", "product operations", "product strategy",
+    "roadmap", "prd", "user stories", "acceptance criteria", "agile", "scrum",
+    "stakeholder management", "cross-functional", "kpi", "metrics", "analytics",
+    "growth", "revenue", "user acquisition", "go-to-market", "operations",
+    "platform", "saas", "b2b", "b2c", "edtech", "fintech", "marketplace",
+    "partnership", "strategy", "data-driven", "lifecycle", "leadership",
+    "learning", "digital transformation", "governance", "ux", "prototyping"
+  ],
+
+  "seniorityTerms": {
+    "senior":  ["senior", "lead", "principal", "head", "manager", "sr"],
+    "mid":     ["product manager", "product owner", "associate product manager", "apm", "specialist"],
+    "junior":  ["junior", "intern", "entry", "graduate", "trainee"]
+  },
+  "targetSeniority": "senior",
+
+  "locationTerms": ["jakarta", "indonesia", "remote", "anywhere", "asia", "apac", "work from home", "hybrid"],
+
+  "searchQueries": [
+    "product manager Jakarta",
+    "product operations Jakarta",
+    "business operations manager Jakarta",
+    "senior product manager Indonesia",
+    "growth product manager remote"
+  ],
+
+  "remotiveSearch": "product",
+  "scoreThreshold": 55
+}
