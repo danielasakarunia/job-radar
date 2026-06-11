@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Job Radar</title>
+<style>
+  :root{
+    --bg:#0f1714; --panel:#16211c; --panel2:#1d2c25; --line:#284037;
+    --ink:#eaf2ed; --inkSoft:#9fb3a9; --accent:#3fd99b; --accentDim:#1f7a56;
+    --low:#d2674f; --mid:#d6a93f; --high:#3fd99b;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;}
+  a{color:var(--accent);}
+  .wrap{max-width:880px;margin:0 auto;padding:0 18px 64px;}
+  header{padding:26px 0 18px;border-bottom:1px solid var(--line);margin-bottom:20px;}
+  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;}
+  .brand h1{font-family:"Space Grotesk","Inter",sans-serif;font-size:26px;font-weight:700;
+    letter-spacing:-.02em;margin:0;}
+  .brand .tag{color:var(--inkSoft);font-size:13px;}
+  .meta{color:var(--inkSoft);font-size:12.5px;margin-top:8px;}
+  .tabs{display:flex;gap:4px;margin-top:18px;}
+  .tab{background:none;border:none;color:var(--inkSoft);font:inherit;font-size:14px;
+    padding:9px 15px;cursor:pointer;border-bottom:2.5px solid transparent;}
+  .tab.active{color:var(--ink);border-bottom-color:var(--accent);}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
+  .chip{background:var(--panel);border:1px solid var(--line);color:var(--inkSoft);
+    border-radius:99px;padding:6px 13px;font:inherit;font-size:12.5px;cursor:pointer;}
+  .chip.active{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    margin-bottom:12px;overflow:hidden;}
+  .row{display:flex;gap:14px;align-items:center;padding:15px 16px;cursor:pointer;}
+  .row:hover{background:var(--panel2);}
+  .score{flex-shrink:0;width:46px;height:46px;border-radius:11px;display:flex;
+    align-items:center;justify-content:center;font-family:"Space Grotesk",sans-serif;
+    font-weight:700;font-size:17px;color:#08110d;}
+  .row .info{flex:1;min-width:0;}
+  .row .title{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:15px;}
+  .row .sub{color:var(--inkSoft);font-size:12.5px;white-space:nowrap;overflow:hidden;
+    text-overflow:ellipsis;margin-top:2px;}
+  .status-pill{flex-shrink:0;font-size:11.5px;font-weight:600;color:var(--accent);
+    background:rgba(63,217,155,.12);border-radius:99px;padding:4px 10px;}
+  .detail{border-top:1px solid var(--line);padding:18px 16px;background:var(--panel2);}
+  .detail p{margin:0 0 12px;font-size:13.5px;line-height:1.6;}
+  .bars{display:grid;gap:7px;max-width:420px;margin:12px 0;}
+  .bar{display:grid;grid-template-columns:74px 1fr 32px;align-items:center;gap:10px;}
+  .bar span{font-size:12px;color:var(--inkSoft);}
+  .bar .track{height:7px;background:var(--bg);border-radius:99px;overflow:hidden;}
+  .bar .fill{height:100%;border-radius:99px;}
+  .bar b{font-size:12px;text-align:right;font-weight:600;}
+  .controls{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:14px;}
+  select,button.act{font:inherit;border-radius:9px;border:1px solid var(--line);
+    background:var(--panel);color:var(--ink);padding:9px 13px;font-size:13.5px;cursor:pointer;}
+  button.primary{background:var(--accent);color:#08110d;border:none;font-weight:600;}
+  button.ghost{background:var(--panel);color:var(--ink);}
+  .empty{padding:34px 18px;text-align:center;color:var(--inkSoft);font-size:14px;}
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);
+    background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:10px;
+    font-size:13.5px;font-weight:500;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50;}
+  .toast.show{opacity:1;}
+  .profile-edit textarea,.profile-edit input{width:100%;background:var(--bg);
+    border:1px solid var(--line);border-radius:9px;color:var(--ink);font:inherit;
+    font-size:13px;padding:9px 11px;margin-bottom:12px;resize:vertical;}
+  .profile-edit label{display:block;font-size:12px;color:var(--inkSoft);
+    font-weight:600;margin-bottom:5px;}
+  .note{font-size:12px;color:var(--inkSoft);line-height:1.55;}
+  code{background:var(--bg);padding:1px 6px;border-radius:5px;font-size:12px;}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap');
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>Job Radar</h1>
+      <span class="tag">match scores, not promises</span>
+    </div>
+    <div class="meta" id="meta">Loading…</div>
+    <nav class="tabs">
+      <button class="tab active" data-tab="pipeline">Pipeline</button>
+      <button class="tab" data-tab="profile">Profile</button>
+      <button class="tab" data-tab="about">How it works</button>
+    </nav>
+  </header>
+
+  <main id="view"></main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------------- state ---------------- */
+const LS_STATUS = "jobradar-status";   // {jobId: status}
+const LS_PROFILE = "jobradar-profile"; // local overrides for tailoring bundle
+const STATUSES = ["New","Saved","Applied","Interview","Closed"];
+let JOBS = [], PROFILE = null, META = {}, activeTab = "pipeline", filter = "All", openId = null;
+
+const $ = (s,r=document)=>r.querySelector(s);
+const localStatus = ()=>{try{return JSON.parse(localStorage.getItem(LS_STATUS))||{}}catch{return{}}};
+const setStatus = (id,st)=>{const m=localStatus();m[id]=st;localStorage.setItem(LS_STATUS,JSON.stringify(m));};
+const scoreColor = n=>n>=80?"var(--high)":n>=60?"var(--mid)":"var(--low)";
+
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");
+  clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),1900);}
+
+/* ---------------- data load ---------------- */
+async function load(){
+  try{
+    const [jr,pr] = await Promise.all([
+      fetch("data/jobs.json?_="+Date.now()).then(r=>r.json()),
+      fetch("data/profile.json?_="+Date.now()).then(r=>r.json())
+    ]);
+    META = {updatedAt:jr.updatedAt, count:jr.count};
+    const stored = localStatus();
+    JOBS = (jr.jobs||[]).map(j=>({...j, status: stored[j.id] || j.status || "New"}));
+    PROFILE = JSON.parse(localStorage.getItem(LS_PROFILE)) || pr;
+  }catch(e){
+    META={error:true};
+    JOBS=[]; PROFILE=PROFILE||{};
+  }
+  render();
+}
+
+/* ---------------- render ---------------- */
+function fmtWhen(iso){ if(!iso) return "never";
+  const d=new Date(iso), mins=Math.round((Date.now()-d)/60000);
+  if(mins<60) return mins+" min ago";
+  if(mins<1440) return Math.round(mins/60)+" h ago";
+  return Math.round(mins/1440)+" d ago"; }
+
+function render(){
+  // meta line
+  $("#meta").innerHTML = META.error
+    ? "Couldn't load job data yet — once the harvester runs, jobs appear here."
+    : `${META.count||0} matches · updated ${fmtWhen(META.updatedAt)}`;
+  // tabs
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.tab===activeTab));
+  const v=$("#view");
+  if(activeTab==="pipeline") v.innerHTML=renderPipeline();
+  else if(activeTab==="profile") v.innerHTML=renderProfile();
+  else v.innerHTML=renderAbout();
+  wire();
+}
+
+function renderPipeline(){
+  const counts = {};
+  JOBS.forEach(j=>counts[j.status]=(counts[j.status]||0)+1);
+  const chips = ["All",...STATUSES].map(s=>{
+    const n = s==="All"?JOBS.length:(counts[s]||0);
+    return `<button class="chip ${filter===s?"active":""}" data-filter="${s}">${s}${n?` (${n})`:""}</button>`;
+  }).join("");
+  let list = JOBS.filter(j=>filter==="All"||j.status===filter).sort((a,b)=>b.score-a.score);
+  if(!list.length) return `<div class="filters">${chips}</div>
+    <div class="card"><div class="empty">No jobs here yet. The background harvester adds new matches automatically every few hours.</div></div>`;
+  return `<div class="filters">${chips}</div>` + list.map(renderCard).join("");
+}
+
+function renderCard(j){
+  const open = j.id===openId;
+  const bd = j.breakdown||{};
+  const bars = [["Skills","skills"],["Seniority","seniority"],["Location","location"]].map(([l,k])=>{
+    const v=bd[k]??0;
+    return `<div class="bar"><span>${l}</span><div class="track"><div class="fill" style="width:${v}%;background:${scoreColor(v)}"></div></div><b>${v}</b></div>`;
+  }).join("");
+  return `<div class="card">
+    <div class="row" data-open="${j.id}">
+      <div class="score" style="background:${scoreColor(j.score)}">${j.score}</div>
+      <div class="info">
+        <div class="title">${esc(j.title)}</div>
+        <div class="sub">${esc(j.company||"—")} · ${esc(j.location||"—")} · via ${esc(j.source||"—")}</div>
+      </div>
+      <div class="status-pill">${j.status}</div>
+    </div>
+    ${open?`<div class="detail">
+      <p>${esc(j.description||"").slice(0,420)}${(j.description||"").length>420?"…":""}</p>
+      ${j.link?`<p><a href="${esc(j.link)}" target="_blank" rel="noreferrer">Open original posting ↗</a> &nbsp;·&nbsp; <span class="note">confirm it's still live before applying</span></p>`:""}
+      <div class="bars">${bars}</div>
+      <div class="controls">
+        <label class="note">Status</label>
+        <select data-status="${j.id}">${STATUSES.map(s=>`<option ${s===j.status?"selected":""}>${s}</option>`).join("")}</select>
+        <button class="act primary" data-tailor="${j.id}">Copy for Claude (tailor CV)</button>
+        <button class="act ghost" data-pdf="${j.id}">Download base CV (PDF)</button>
+      </div>
+      <p class="note" style="margin-top:12px">“Copy for Claude” puts the job + your profile on your clipboard. Paste it into your Claude chat and it returns a tailored CV — then download that as PDF from the chat.</p>
+    </div>`:""}
+  </div>`;
+}
+
+function renderProfile(){
+  const p=PROFILE||{};
+  const f=(label,key,ta)=>ta
+    ? `<label>${label}</label><textarea rows="${ta}" data-pf="${key}">${esc(p[key]||"")}</textarea>`
+    : `<label>${label}</label><input data-pf="${key}" value="${esc(p[key]||"")}" />`;
+  return `<div class="card"><div class="detail profile-edit">
+    <p class="note">This is your local copy, used to build the “Copy for Claude” bundle and the base PDF. To change what the <b>harvester searches for</b>, edit <code>data/profile.json</code> in your GitHub repo.</p>
+    ${f("Name","name")}
+    ${f("Contact line","contact")}
+    ${f("Headline","headline")}
+    ${f("Summary","summary",3)}
+    ${f("Education","education")}
+    <button class="act primary" id="save-profile">Save local profile</button>
+  </div></div>`;
+}
+
+function renderAbout(){
+  return `<div class="card"><div class="detail">
+    <p><b>How Job Radar works</b></p>
+    <p class="note" style="line-height:1.7">
+    1. A background job (GitHub Actions) runs every few hours, pulls fresh product/business openings from Remotive and JSearch, scores each against your profile with a transparent rule-based engine, and saves the matches.<br><br>
+    2. This page shows them ranked. Your status changes (Saved, Applied…) are stored in this browser.<br><br>
+    3. When you like one, “Copy for Claude” bundles the job + your profile. Paste into Claude, get a tailored CV, download the PDF there.<br><br>
+    The score is a <b>match score</b> — skills, seniority, and location overlap — not a prediction of being hired.</p>
+  </div></div>`;
+}
+
+const esc = s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---------------- interactions ---------------- */
+function wire(){
+  document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{activeTab=t.dataset.tab;openId=null;render();});
+  document.querySelectorAll("[data-filter]").forEach(c=>c.onclick=()=>{filter=c.dataset.filter;render();});
+  document.querySelectorAll("[data-open]").forEach(r=>r.onclick=()=>{
+    const id=r.dataset.open; openId = openId===id?null:id; render();});
+  document.querySelectorAll("[data-status]").forEach(sel=>sel.onchange=e=>{
+    const id=sel.dataset.status; setStatus(id,e.target.value);
+    const j=JOBS.find(x=>x.id===id); if(j)j.status=e.target.value; render(); toast("Status updated");});
+  document.querySelectorAll("[data-tailor]").forEach(b=>b.onclick=()=>copyForClaude(b.dataset.tailor));
+  document.querySelectorAll("[data-pdf]").forEach(b=>b.onclick=()=>downloadBasePdf());
+  const sp=$("#save-profile");
+  if(sp) sp.onclick=()=>{
+    const p={...PROFILE};
+    document.querySelectorAll("[data-pf]").forEach(el=>p[el.dataset.pf]=el.value);
+    PROFILE=p; localStorage.setItem(LS_PROFILE,JSON.stringify(p)); toast("Profile saved locally");};
+}
+
+function copyForClaude(id){
+  const j=JOBS.find(x=>x.id===id); if(!j) return;
+  const p=PROFILE||{};
+  const text =
+`Please tailor my CV for this job. Use ONLY my real experience below — never invent anything. Make it ATS-friendly and natural-sounding, then give me the PDF.
+
+=== TARGET JOB ===
+Title: ${j.title}
+Company: ${j.company}
+Location: ${j.location}
+Link: ${j.link||"—"}
+Description:
+${j.description}
+
+=== MY PROFILE ===
+Name: ${p.name||""}
+Contact: ${p.contact||""}
+Headline: ${p.headline||""}
+Summary: ${p.summary||""}
+Education: ${p.education||""}
+(Full work history is in my saved profile / earlier in our chat.)`;
+  navigator.clipboard.writeText(text).then(
+    ()=>toast("Copied — paste into your Claude chat"),
+    ()=>{ // fallback
+      const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);
+      ta.select();document.execCommand("copy");document.body.removeChild(ta);
+      toast("Copied — paste into your Claude chat");});
+}
+
+/* ---------------- base PDF (zero-dependency, ATS-clean) ---------------- */
+const HELV_W=[278,278,355,556,556,889,667,191,333,333,389,584,278,333,278,278,556,556,556,556,556,556,556,556,556,556,278,278,584,584,584,556,1015,667,667,722,722,667,611,778,722,278,500,667,556,833,722,778,667,778,722,667,611,722,667,944,667,667,611,278,278,278,469,556,333,556,556,500,556,556,278,556,556,222,222,500,222,833,556,556,556,556,333,500,278,556,500,722,500,500,500,334,260,334,584];
+const HELB_W=[278,333,474,556,556,889,722,238,333,333,389,584,278,333,278,278,556,556,556,556,556,556,556,556,556,556,333,333,584,584,584,611,975,722,722,722,722,667,611,778,722,278,556,722,611,833,722,778,667,778,722,667,611,722,667,944,667,667,611,333,278,333,584,556,333,556,611,556,611,556,333,611,611,278,278,556,278,889,611,611,611,611,389,556,333,611,556,778,556,556,500,389,280,389,584];
+const cw=(c,b)=>{if(c<32||c>126)c=63;return (b?HELB_W:HELV_W)[c-32];};
+const measure=(t,s,b)=>{let w=0;for(let i=0;i<t.length;i++)w+=cw(t.charCodeAt(i),b);return w/1000*s;};
+const ascii=s=>String(s).replace(/[\u2014\u2013]/g,"-").replace(/[\u2022]/g,"-").replace(/[\u00B7]/g,"|").replace(/[\u2018\u2019]/g,"'").replace(/[\u201C\u201D]/g,'"').replace(/[\u2026]/g,"...");
+const pesc=s=>ascii(s).replace(/\\/g,"\\\\").replace(/\(/g,"\\(").replace(/\)/g,"\\)");
+function wrap(t,maxW,s,b){const ws=ascii(t).replace(/\s+/g," ").trim().split(" ");const out=[];let ln="";
+  for(const w of ws){const tr=ln?ln+" "+w:w;if(measure(tr,s,b)>maxW&&ln){out.push(ln);ln=w;}else ln=tr;}
+  if(ln)out.push(ln);return out.length?out:[""];}
+
+function buildPdf(p){
+  const PW=595.28,PH=841.89,M=56,left=M,right=PW-M,usable=right-left;
+  const pages=[];let texts=[],rules=[],y=PH-M;
+  const np=()=>{if(texts.length||rules.length)pages.push({texts,rules});texts=[];rules=[];y=PH-M;};
+  const line=(str,s,b,x=left)=>{const lh=s*1.30;if(y-lh<M)np();texts.push({x,y,s,b,t:str});y-=lh;};
+  const para=(t,s,b,x=left,w=usable)=>{for(const l of wrap(t,w,s,b))line(l,s,b,x);};
+  const bullet=(t,s=10)=>{const mk="- ",mw=measure(mk,s,false),hx=left+mw,ls=wrap(t,usable-mw,s,false);
+    ls.forEach((l,i)=>{const lh=s*1.34;if(y-lh<M)np();
+      texts.push({x:i?hx:left,y,s,b:false,t:i?l:mk+l});y-=lh;});};
+  const head=l=>{y-=13;const s=10.5,lh=s*1.30;if(y-lh-6<M)np();
+    texts.push({x:left,y,s,b:true,t:l.toUpperCase()});y-=(lh-2);rules.push({x1:left,x2:right,y:y+1});y-=9;};
+
+  line(p.name||"",18,true); y-=2;
+  if(p.contact) para(p.contact,9,false); y-=4;
+  if(p.summary){head("Professional Summary");para(p.summary,10,false);}
+  if(p.experienceText){head("Experience");
+    p.experienceText.split("\n").forEach(l=>{
+      if(!l.trim())return;
+      if(l.trim().startsWith("-")||l.trim().startsWith("•")) bullet(l.replace(/^[\s\-•]+/,""),10);
+      else para(l,10.5,true);
+    });}
+  if(p.education){head("Education");para(p.education,10,false);}
+  if(p.skills){head("Skills");para(Array.isArray(p.skills)?p.skills.join(", "):p.skills,10,false);}
+  np();
+
+  const cat=1,pg=2,fh=3,fb=4;const pids=[],cids=[];let id=5;
+  for(let i=0;i<pages.length;i++){pids.push(id++);cids.push(id++);}
+  const streams=pages.map(pp=>{let s="";
+    if(pp.rules.length){s+="0.6 w 0.15 0.18 0.16 RG\n";
+      for(const r of pp.rules)s+=`${r.x1.toFixed(2)} ${r.y.toFixed(2)} m ${r.x2.toFixed(2)} ${r.y.toFixed(2)} l S\n`;}
+    s+="BT 0 0 0 rg\n";let cf="",cs=0;
+    for(const o of pp.texts){const fr=o.b?"/F2":"/F1";
+      if(fr!==cf||o.s!==cs){s+=`${fr} ${o.s} Tf\n`;cf=fr;cs=o.s;}
+      s+=`1 0 0 1 ${o.x.toFixed(2)} ${o.y.toFixed(2)} Tm (${pesc(o.t)}) Tj\n`;}
+    return s+"ET";});
+  const O={};O[cat]=`<< /Type /Catalog /Pages ${pg} 0 R >>`;
+  O[pg]=`<< /Type /Pages /Kids [${pids.map(i=>i+" 0 R").join(" ")}] /Count ${pids.length} >>`;
+  O[fh]=`<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>`;
+  O[fb]=`<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>`;
+  for(let i=0;i<pages.length;i++){
+    O[pids[i]]=`<< /Type /Page /Parent ${pg} 0 R /MediaBox [0 0 ${PW.toFixed(2)} ${PH.toFixed(2)}] /Resources << /Font << /F1 ${fh} 0 R /F2 ${fb} 0 R >> >> /Contents ${cids[i]} 0 R >>`;
+    const st=streams[i];O[cids[i]]=`<< /Length ${st.length} >>\nstream\n${st}\nendstream`;}
+  const tot=id-1;let pdf="%PDF-1.4\n";const off=[];
+  for(let i=1;i<=tot;i++){off[i]=pdf.length;pdf+=`${i} 0 obj\n${O[i]}\nendobj\n`;}
+  const xs=pdf.length;pdf+=`xref\n0 ${tot+1}\n0000000000 65535 f \n`;
+  for(let i=1;i<=tot;i++)pdf+=String(off[i]).padStart(10,"0")+" 00000 n \n";
+  pdf+=`trailer\n<< /Size ${tot+1} /Root ${cat} 0 R >>\nstartxref\n${xs}\n%%EOF`;
+  return pdf;
+}
+
+function downloadBasePdf(){
+  const p=PROFILE||{};
+  const pdf=buildPdf(p);
+  const bytes=new Uint8Array(pdf.length);for(let i=0;i<pdf.length;i++)bytes[i]=pdf.charCodeAt(i)&0xff;
+  const url=URL.createObjectURL(new Blob([bytes],{type:"application/pdf"}));
+  const a=document.createElement("a");a.href=url;
+  a.download=(p.name||"CV").replace(/[^a-z0-9]+/gi,"_")+"_base_CV.pdf";
+  document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url),4000);
+  toast("Base CV downloaded — tailored version comes from Claude");
+}
+
+load();
+</script>
+</body>
+</html>
