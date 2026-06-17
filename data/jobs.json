@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T18:19:38.146Z",
+  "updatedAt": "2026-06-17T13:02:30.981Z",
   "count": 15,
   "jobs": [
     {
@@ -129,24 +129,6 @@
       "firstSeen": "2026-06-11"
     },
     {
-      "id": "rem-1919266",
-      "title": "Senior Independent AI Engineer / Architect",
-      "company": "A.Team",
-      "location": "Americas, Europe, Israel",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
-      "description": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startups, enterprises, and global companies. Since 2020, builders in the network have earned more than $200M working with companies including Lyft, Google X, HCA, Unilever, Sightful, D-ID, and others. The Work You'll join small teams solving real problems. Not demos. Not proof-of-concepts that never ship. Not another thin wrapper around an API. Recent work has included: AI-native products built from 0→1 Agent architectures and orchestration systems Enterprise AI deployments Retrieval, evaluation, and reliability infrastructure LLM-powered workflows and products Machine learning platforms operating at scale You'll work directly with founders, CTOs, and product leaders, helping shape both technical direction and execution. Why Builders Join The best opportunities rarely make it to the open market. A.Team exists to solve that. No bidding. No prospecting. No race to the bottom. Just ambitious companies, difficult problems, and experienced peers. Who Thrives Here People who have already shipped. Engineers who have deployed AI systems into production, understand the tradeoffs behind the hype, and know how to turn technical complexity into business value. What matters is a track record of building and shipping. The",
-      "posted": "2026-05-16",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
       "id": "rem-2090887",
       "title": "Mid/Senior AI Cinematic Video Editor",
       "company": "EverAI",
@@ -163,6 +145,24 @@
       },
       "status": "New",
       "firstSeen": "2026-06-11"
+    },
+    {
+      "id": "rem-2090991",
+      "title": "Frontend Developer",
+      "company": "Quinncia Inc",
+      "location": "Worldwide",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991",
+      "description": "(All applications will be considered ONLY through Wellfound. Please do not contact any employee of the company as no such contact/connection will be considered as an application for the job.) This posting is for a Frontend Developer, you would work alongside our team. We are a fully remote team so it does not matter which country or time zone you are in, as long as you are available from 10 AM to 1 PM (EST). We are NOT looking for part-time work, contractors, software development companies or consultants, so please only apply if you're looking for a full-time position. Quinncia is a career readiness platform that improves college student outcomes by improving students' resumes and interview skills using our AI. Quinncia allows career service to scale their offerings allowing each student to get personalized feedback on their resume and interviewing skills. With over 60% unemployment or underemployment rate recently graduated students, our goal is to integrate career readiness into the academic curriculum and make sure every student has a job within 90 days of graduation. Projects you'll be working on: We're focused on enhancing our UI and UX, as well as streamlining operations and improving our technical foundation. As a core member of the Front-End team, you will influence how we build individual features, take ownership of end to end product quality that will help make our app/website reliable We want you to focus on high-quality code and know that quality is more than just",
+      "posted": "2026-06-16",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-06-17"
     },
     {
       "id": "rem-2090910",
