@@ -1,25 +1,7 @@
 {
-  "updatedAt": "2026-06-19T20:53:34.752Z",
-  "count": 16,
+  "updatedAt": "2026-06-20T10:19:23.126Z",
+  "count": 13,
   "jobs": [
-    {
-      "id": "rem-2090881",
-      "title": "Business Transformation Lead",
-      "company": "Expion Health",
-      "location": "USA",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/artificial-intelligence/business-transformation-lead-2090881",
-      "description": "Title : Business Transformation Lead Location : Fully Remote Reports To : President, Service Growth Expion Health is building the future of pharmacy economics. As architects of prescription economics, we design how pharmacy value is created, aligning cost, clinical decisions, and performance into one accountable system that moves beyond rebates. We help organizations stay ahead of pharmacy market change with clear insight, bold thinking, and strategies built for what's next-leading the next era of prescription economics. The Role As our Business Transformation Lead , you'll be the architect and driver of how we embed AI into the way every team in our company works. This isn't a slide-deck strategy role. You'll be on the ground with department leaders, identifying real workflow opportunities, turning them into real solutions, and building the internal capability that makes the transformation stick. You'll lead our AI Champions program, partner directly with executive leadership, and own the roadmap that takes Expion Health from an organization that uses AI tools to one that runs on AI intelligence. If you've spent time figuring out how to make AI work in the real world - not just in theory - and you want to do it at a company that's fast, innovative, and genuinely committed to this, this role was built for you. What You'll Own Drive Transformation (65%) Own the AI transformation roadmap end-to-end - from strategy to execution - and keep it moving in a fast-paced environment Ru",
-      "posted": "2026-06-12",
-      "score": 67,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-14"
-    },
     {
       "id": "rem-2090949",
       "title": "High-Ticket Financial Sales Specialist & Team Lead Track",
@@ -124,42 +106,6 @@
         "skills": 33,
         "seniority": 70,
         "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
-      "id": "rem-2090890",
-      "title": "Staff Product Engineer (São Paulo)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2090890",
-      "description": "This is a remote role for candidates located in São Paulo (Brazil) About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for the ",
-      "posted": "2026-05-21",
-      "score": 59,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
-      "id": "rem-2090887",
-      "title": "Mid/Senior AI Cinematic Video Editor",
-      "company": "EverAI",
-      "location": "Worldwide",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887",
-      "description": "Our Vision Products 🚀 EverAI — Building the Future of AI Companionship One of the Top 15 Largest Fastest-Growing AI Companies in the World 50 Million Users in 2 years — Help Us Reach 100M first, 500M next At EverAI , we’re shaping what it means to connect with AI. With 50 million users and counting , we're not just building products — we're creating entirely new categories. Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first . And we’re only just getting started! Our Team We are an enthusiastic, passionate and hardworking team of ≈ 75 people. Our founding team has strong entrepreneurial experience building and scaling web products from 0 to IPO. Alexis Soulopoulos [CEO] • 10+ years in Tech Executive Leadership • Co-Founder Mad Paws Holdings (from 0 to IPO) • Forbes 30 under 30 + Deloitte TechFast50 ’22 ‘23 Michael Monin [Co-founder CTO] • 10+ years as CTO / COO (web2/web3), 1+ year in AI/LLM • Serial-entrepreneur: MTK Digital (exited / 0- $20m revenue) and Zipchat (AI Chatbot for E-commerce brands) Thomas Lacroix [Co-founder CMO] • 8+ years in Customer Acquisition E-commerce Growth • Serial-entrepreneur: Curatible (sold to Blackstone) and MTK Digital (exited / 0- $20m revenue) Maruša Fasano [CFO/Legal] • 25+ years in Finance, Strategy, M A • Ex-CFO/M A @Curatible (e",
-      "posted": "2026-05-19",
-      "score": 56,
-      "breakdown": {
-        "skills": 42,
-        "seniority": 100,
-        "location": 40
       },
       "status": "New",
       "firstSeen": "2026-06-11"
