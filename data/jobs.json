@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-24T21:13:26.273Z",
-  "count": 20,
+  "updatedAt": "2026-06-25T10:29:07.693Z",
+  "count": 16,
   "jobs": [
     {
       "id": "rem-2090949",
@@ -127,78 +127,6 @@
       },
       "status": "New",
       "firstSeen": "2026-06-18"
-    },
-    {
-      "id": "rem-2090899",
-      "title": "Staff Product Engineer (Florianópolis)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2090899",
-      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for t",
-      "posted": "2026-05-27",
-      "score": 59,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
-      "id": "rem-2090900",
-      "title": "Staff Product Engineer (Belo Horizonte)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2090900",
-      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for",
-      "posted": "2026-05-27",
-      "score": 59,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
-      "id": "rem-2090901",
-      "title": "Staff Product Engineer (Porto Alegre)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-porto-alegre-2090901",
-      "description": "This is a remote role for candidates located in Porto Alegre, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for t",
-      "posted": "2026-05-27",
-      "score": 59,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
-    },
-    {
-      "id": "rem-2090902",
-      "title": "Staff Product Engineer (Campinas)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2090902",
-      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We're restructuring engineering around initiative teams : a Product Engineer paired with a PM and a designer, with an Engineering Manager who covers a couple of initiatives and supports your growth. The engineer leads AI agents like a team, ships the work, and is accountable — with the rest of the triangle — for whether the initiative moves its metric. We're betting that 1–2 strong engineers running AI agents can outship the labor-team model that defined the last decade of software. That bet only works if the engineers we hire are wired for ownership and can ship to a marketplace with real customers and pros on both sides. The Role You're the engineering anchor of one initiative at a time. The initiative is a team effort — an iron triangle of you, your PM, and your designer — and you have key participation across the full lifecycle: shaping the problem, deciding the technical approach, leading the AI agents that implement most of the code, shipping to production, and answering for the outcome alongside the rest of the triangle. You're accountable for the o",
-      "posted": "2026-05-26",
-      "score": 59,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-11"
     },
     {
       "id": "rem-2090887",
