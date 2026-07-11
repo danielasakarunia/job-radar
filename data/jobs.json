@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T07:20:58.663Z",
-  "count": 12,
+  "updatedAt": "2026-07-11T11:32:03.040Z",
+  "count": 23,
   "jobs": [
     {
       "id": "rem-2090984",
@@ -163,6 +163,204 @@
       },
       "status": "New",
       "firstSeen": "2026-06-26"
+    },
+    {
+      "id": "rem-2091056",
+      "title": "Staff Software Engineer, Product (Belo Horizonte)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2091056",
+      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship somethi",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091058",
+      "title": "Staff Software Engineer, Product (Montevideo)",
+      "company": "LawnStarter",
+      "location": "Uruguay",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-montevideo-2091058",
+      "description": "This is a remote role for candidates located in Montevideo, Uruguay. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something ",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091055",
+      "title": "Staff Software Engineer, Product (São Paulo)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2091055",
+      "description": "This is a remote role for candidates located in São Paulo, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something sa",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091050",
+      "title": "Staff Software Engineer, Product (Mexico City)",
+      "company": "LawnStarter",
+      "location": "Mexico",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-mexico-city-2091050",
+      "description": "This is a remote role for candidates located in Mexico City, Mexico. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something ",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091049",
+      "title": "Staff Software Engineer, Product (Campinas)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2091049",
+      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something saf",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091059",
+      "title": "Staff Software Engineer, Product (Florianópolis)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2091059",
+      "description": "This is a remote role for candidates located in Florianópolis, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship somethin",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091057",
+      "title": "Staff Product Engineer (Mexico City)",
+      "company": "LawnStarter",
+      "location": "Mexico",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-mexico-city-2091057",
+      "description": "This is a remote role for candidates located in Mexico City, Mexico. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something ",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091054",
+      "title": "Staff Product Engineer (Montevideo)",
+      "company": "LawnStarter",
+      "location": "Uruguay",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-montevideo-2091054",
+      "description": "This is a remote role for candidates located in Montevideo, Uruguay. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something ",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091053",
+      "title": "Staff Product Engineer (Campinas)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2091053",
+      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something saf",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091052",
+      "title": "Staff Product Engineer (Belo Horizonte)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2091052",
+      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship somethi",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
+    },
+    {
+      "id": "rem-2091051",
+      "title": "Staff Product Engineer (Florianópolis)",
+      "company": "LawnStarter",
+      "location": "Brazil",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2091051",
+      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something",
+      "posted": "2026-07-09",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-07-11"
     },
     {
       "id": "rem-2091000",
