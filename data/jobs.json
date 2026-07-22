@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T10:10:43.506Z",
-  "count": 22,
+  "updatedAt": "2026-07-22T17:04:45.717Z",
+  "count": 16,
   "jobs": [
     {
       "id": "rem-2090984",
@@ -55,96 +55,6 @@
       },
       "status": "New",
       "firstSeen": "2026-07-17"
-    },
-    {
-      "id": "rem-2090994",
-      "title": "Senior Quality Engineer (Florianópolis)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-quality-engineer-florianopolis-2090994",
-      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services, operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We've spent the last two years rebuilding the platform from the ground up: new customer app, new Pro onboarding, job distribution engine, and data infrastructure. The foundation is solid. Now we're moving into expanded service verticals, dynamic pricing, and AI-powered features at scale. Quality needs to keep up. Our stack is PHP (Laravel) and React/React Native, with Cypress as our primary test framework. We actively use Claude Code as part of our engineering workflow, not as an experiment, but as a core part of how we work. The Role As we scale into new service verticals and grow the engineering team, quality can't be reactive. This role exists to make quality proactive: owning the automation coverage, shaping the bug process, and partnering closely with Product, Design, and the Data team to catch problems before they reach customers. You'll report to the Engineering Manager and be embedded across the engineering organization. This is hands-on and strategic, helping raise the quality ceiling for the whole team. What makes this role different: Cross-fu",
-      "posted": "2026-06-23",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
-    },
-    {
-      "id": "rem-2090995",
-      "title": "Senior Quality Engineer (São Paulo)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-quality-engineer-sao-paulo-2090995",
-      "description": "This is a remote role for candidates located in São Paulo , Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services, operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We've spent the last two years rebuilding the platform from the ground up: new customer app, new Pro onboarding, job distribution engine, and data infrastructure. The foundation is solid. Now we're moving into expanded service verticals, dynamic pricing, and AI-powered features at scale. Quality needs to keep up. Our stack is PHP (Laravel) and React/React Native, with Cypress as our primary test framework. We actively use Claude Code as part of our engineering workflow, not as an experiment, but as a core part of how we work. The Role As we scale into new service verticals and grow the engineering team, quality can't be reactive. This role exists to make quality proactive: owning the automation coverage, shaping the bug process, and partnering closely with Product, Design, and the Data team to catch problems before they reach customers. You'll report to the Engineering Manager and be embedded across the engineering organization. This is hands-on and strategic, helping raise the quality ceiling for the whole team. What makes this role different: Cross-funct",
-      "posted": "2026-06-23",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
-    },
-    {
-      "id": "rem-2090996",
-      "title": "Senior Quality Engineer (Belo Horizonte)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-quality-engineer-belo-horizonte-2090996",
-      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services, operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We've spent the last two years rebuilding the platform from the ground up: new customer app, new Pro onboarding, job distribution engine, and data infrastructure. The foundation is solid. Now we're moving into expanded service verticals, dynamic pricing, and AI-powered features at scale. Quality needs to keep up. Our stack is PHP (Laravel) and React/React Native, with Cypress as our primary test framework. We actively use Claude Code as part of our engineering workflow, not as an experiment, but as a core part of how we work. The Role As we scale into new service verticals and grow the engineering team, quality can't be reactive. This role exists to make quality proactive: owning the automation coverage, shaping the bug process, and partnering closely with Product, Design, and the Data team to catch problems before they reach customers. You'll report to the Engineering Manager and be embedded across the engineering organization. This is hands-on and strategic, helping raise the quality ceiling for the whole team. What makes this role different: Cross-f",
-      "posted": "2026-06-23",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
-    },
-    {
-      "id": "rem-2090998",
-      "title": "Senior Quality Engineer (Campinas)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-quality-engineer-campinas-2090998",
-      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services, operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We've spent the last two years rebuilding the platform from the ground up: new customer app, new Pro onboarding, job distribution engine, and data infrastructure. The foundation is solid. Now we're moving into expanded service verticals, dynamic pricing, and AI-powered features at scale. Quality needs to keep up. Our stack is PHP (Laravel) and React/React Native, with Cypress as our primary test framework. We actively use Claude Code as part of our engineering workflow, not as an experiment, but as a core part of how we work. The Role As we scale into new service verticals and grow the engineering team, quality can't be reactive. This role exists to make quality proactive: owning the automation coverage, shaping the bug process, and partnering closely with Product, Design, and the Data team to catch problems before they reach customers. You'll report to the Engineering Manager and be embedded across the engineering organization. This is hands-on and strategic, helping raise the quality ceiling for the whole team. What makes this role different: Cross-functi",
-      "posted": "2026-06-23",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
-    },
-    {
-      "id": "rem-2090997",
-      "title": "Senior Quality Engineer (Porto Alegre)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-quality-engineer-porto-alegre-2090997",
-      "description": "This is a remote role for candidates located in Porto Alegre, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services, operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We've spent the last two years rebuilding the platform from the ground up: new customer app, new Pro onboarding, job distribution engine, and data infrastructure. The foundation is solid. Now we're moving into expanded service verticals, dynamic pricing, and AI-powered features at scale. Quality needs to keep up. Our stack is PHP (Laravel) and React/React Native, with Cypress as our primary test framework. We actively use Claude Code as part of our engineering workflow, not as an experiment, but as a core part of how we work. The Role As we scale into new service verticals and grow the engineering team, quality can't be reactive. This role exists to make quality proactive: owning the automation coverage, shaping the bug process, and partnering closely with Product, Design, and the Data team to catch problems before they reach customers. You'll report to the Engineering Manager and be embedded across the engineering organization. This is hands-on and strategic, helping raise the quality ceiling for the whole team. What makes this role different: Cross-fun",
-      "posted": "2026-06-23",
-      "score": 59,
-      "breakdown": {
-        "skills": 17,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
     },
     {
       "id": "rem-2091035",
@@ -361,24 +271,6 @@
       },
       "status": "New",
       "firstSeen": "2026-07-11"
-    },
-    {
-      "id": "rem-2091000",
-      "title": "Staff Product Engineer (São Paulo)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2091000",
-      "description": "This is a remote role for candidates located in São Paulo , Brazil. LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You have a hand in the full lifecycle: shaping the problem, deciding the technical approach, directing AI agents to implement much of the code, shipping to production, and — with your team — owning the outcome. You're measured by impact, not by lines of code merged. When an agent can ship something safely,",
-      "posted": "2026-06-23",
-      "score": 55,
-      "breakdown": {
-        "skills": 25,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-06-24"
     },
     {
       "id": "demo-3",
