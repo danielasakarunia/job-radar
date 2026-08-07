@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T10:22:26.796Z",
-  "count": 14,
+  "updatedAt": "2026-08-07T01:57:19.552Z",
+  "count": 15,
   "jobs": [
     {
       "id": "rem-2090949",
@@ -37,6 +37,24 @@
       },
       "status": "New",
       "firstSeen": "2026-07-17"
+    },
+    {
+      "id": "rem-2091088",
+      "title": "Sales Jedi",
+      "company": "Creative Force ",
+      "location": "Europe",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
+      "description": "Great salary | Profit share | 100% remote | Work from anywhere in Europe | SaaS Awesome opportunity for a self-motivated and energetic people person to join our remote team and help sell our world-leading SaaS products, from anywhere in Europe. We pay a great salary, based on experience and location. We don’t pay commissions, because good sales are a team effort—from engineering, to operations, marketing, and support, our high-performing team all contribute to a great product and service that our clients love. Everybody in the company is rewarded with a share of profit each December—we succeed together. Our much-loved products are in demand and are proven to make a difference to our clients’ lives. You’ll be selling world-leading software through a well-considered process that leaves room for personal flair. SaaS experience is extremely beneficial but strong communication skills, patience, curiosity, keenness to learn and friendliness are key to success in this role. Join our Rebel Alliance Creative Force is experiencing strong growth and as we scale our efforts in 2026 and beyond, we’re looking for enthusiastic individuals to join our diverse team of Jedis to help recruit new clients as they navigate the decision process, and transform them into long-term supporters. You’ll be a respected member of our remote global sales team and will be well supported with the tools, knowledge and answers you need to provide exceptional levels of service, and to make the most from solid sa",
+      "posted": "2026-08-05",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-08-07"
     },
     {
       "id": "rem-2091056",
