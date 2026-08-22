@@ -1,7 +1,25 @@
 {
-  "updatedAt": "2026-08-22T08:14:10.485Z",
-  "count": 3,
+  "updatedAt": "2026-08-22T16:08:43.380Z",
+  "count": 4,
   "jobs": [
+    {
+      "id": "rem-2091098",
+      "title": "Senior Golang Developer",
+      "company": "Lemon.io",
+      "location": "Europe, USA, UK, Canada, Australia, Singapore",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/software-development/senior-golang-developer-2091098",
+      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. We are currently seeking a Senior Software Engineer for our client — a research-driven artificial intelligence company. The client’s mission is to cut the cost of modern AI by co-designing hardware, software, algorithms, and models — with the goal of making AI’s benefits accessible to society. They’re active contributors to open-source AI research and are looking for researchers and engineers to help build the next generation of AI infrastructure.Cooperation: This starts as contract work via our platform. If it goes well, you’ll transition to a direct hire, with equity, health insurance, and other competitive benefits. Locations: the EU, the US, Canada, the UK, Australia, Singapore About the role: You’d build the Go-based platform that lets research and inference teams provision, scale, repair, and tear down GPU clusters through an API - instead of filing tickets. You’d own the product end to end : shaping internal platforms, improving developer experience, and operating the systems in production. Requirements: 5+ years of software development experience 3+ years of experience with Golang and Kubernetes controllers Knowledge of Temporal is a must Strong technical skills: as a Senior Developer, you are expected to be able to create projects from ",
+      "posted": "2026-08-20",
+      "score": 59,
+      "breakdown": {
+        "skills": 17,
+        "seniority": 100,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-08-22"
+    },
     {
       "id": "rem-1919266",
       "title": "Senior Independent AI Engineer / Architect",
