@@ -1,7 +1,25 @@
 {
-  "updatedAt": "2026-08-27T05:19:37.144Z",
-  "count": 4,
+  "updatedAt": "2026-08-27T18:26:46.492Z",
+  "count": 5,
   "jobs": [
+    {
+      "id": "rem-2091099",
+      "title": "Senior DevOps Engineer",
+      "company": "Lemon.io",
+      "location": "LATAM, Europe, USA, Canada, APAC",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+      "description": "Are you a talented Senior DevOps looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. We currently have multiple DevOps openings open at once, each with a different setup, stack, and benefits. Check which one fits you: Direct hire for our client in the gambling industry. Relocation and visa assistance included. This role bridges infrastructure and application operations: you’ll keep environments reliable, redundant, and secure, investigate production issues, and support dev and QA teams with technical context. We're seeking a DevOps Engineer with strong Laravel and Nuxt experience to manage and improve our application infrastructure. This role bridges infrastructure and application operations — you'll keep environments reliable, redundant, and secure, investigate production issues, and support dev and QA teams with technical context. Benefits: paid leave; gym allowance; lunch allowance; monthly team-building activities; birthday and work anniversary presents. Requirements - DevOps with Linux: 4+ years of experience as a DevOps Engineer At least 3 years of experience with Linux Knowledge of Laravel, PHP, and Nuxt is a must 2+ years of experience with Heroku, DigitalOcean, or Cloudflare We also have other positions that aren't direct hire. Requirements - DevOps (Python/Bash): 4+ years of experience as a DevOps Engineer At least 3 year",
+      "posted": "2026-08-25",
+      "score": 63,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 100,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-08-27"
+    },
     {
       "id": "rem-2091098",
       "title": "Senior Golang Developer",
