@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T01:36:57.406Z",
-  "count": 6,
+  "updatedAt": "2026-09-05T11:25:33.317Z",
+  "count": 5,
   "jobs": [
     {
       "id": "rem-2091100",
@@ -9,11 +9,11 @@
       "location": "Europe",
       "source": "Remotive",
       "link": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100",
-      "description": "Are you a talented QA looking for a remote job that lets you show your skills and get better compensation and career growth? Look no further than Lemon.io - the marketplace that connects you with hand-picked startups in the US and Europe. We are seeking a Senior QA Engineer for our client — for direct hire. The client is a B2B service provider based in Cyprus that specializes in building and managing technology and operational services for online businesses. We are looking for a detail-oriented and proactive QA Engineer who is passionate about quality and thrives in a fast-paced development environment. You'll play a key role in ensuring our products meet the highest standards by working across both manual testing and automation. Experience with tools like BrowserStack, TestRail, and Playwright (or willingness to grow into them) will help you succeed in this role. If you are a clear communicator who is proactive, takes ownership, collaborates well, and asks clarifying questions — and if you're comfortable working independently, managing your time effectively, and delivering high-quality results — please apply. Overlap: 8 hours with Cyprus (standard working day). Remote from the EU, or on-site in Limassol, Cyprus. Benefits: paid leave (available after 6 months of work) and an annual Christmas party trip. Requirements: 3+ years of experience in automation testing 2+ years of experience in manual testing 2+ years of experience working with Cypress, Playwright or Selenium Excepti",
+      "description": "Are you a talented QA looking for a remote job that lets you show your skills and get better compensation and career growth? Look no further than Lemon.io - the marketplace that connects you with hand-picked startups in the US and Europe. Requirements: 3+ years of experience in automation testing 2+ years of experience in manual testing 3+ years of experience working with Cypress or Selenium Exceptional attention to detail Good command of English, both written and spoken. Strong organizational skills — ability to work full-time remotely with no supervision Responsibility — we want to trust you! Soft skills — we don’t ask you to find a topic for small talk, but being just polite is OK. NOT YOUR TECH STACK? We're placing Senior Developers (4+ yrs commercial experience) across AI Agent Architecture, AI Automation Architecture, AI Engineering, Site Reliability Engineering, Platform Engineering, React Python, React Golang, Golang, React Java, React Ruby, Ruby, PHP Vue, Vue Node.js, React .NET, Android iOS, iOS Swift, Flutter Firebase, Solutions Engineer, Blockchain (Ethereum/Ethers.js/Wagmi/Viem/Solana), Angular Node.js, Vue .NET, Python Vue, DevOps, MLOps, Data Science, Angular PHP, Angular .NET, Symfony React, Symfony Vue, Symfony Angular, Python, Symfony JavaScript Next.js TypeScript, Data Analysis, React PHP, Data Engineering, Project Management, Product Management, Embedded Software Engineering, React Native Node, React Native React, React Native Ruby, React Native Python, Wo",
       "posted": "2026-08-26",
-      "score": 63,
+      "score": 67,
       "breakdown": {
-        "skills": 25,
+        "skills": 33,
         "seniority": 100,
         "location": 100
       },
@@ -73,24 +73,6 @@
       },
       "status": "New",
       "firstSeen": "2026-08-17"
-    },
-    {
-      "id": "rem-2091088",
-      "title": "Sales Jedi",
-      "company": "Creative Force ",
-      "location": "Europe",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
-      "description": "Great salary | Profit share | 100% remote | Work from anywhere in Europe | SaaS Awesome opportunity for a self-motivated and energetic people person to join our remote team and help sell our world-leading SaaS products, from anywhere in Europe. We pay a great salary, based on experience and location. We don’t pay commissions, because good sales are a team effort—from engineering, to operations, marketing, and support, our high-performing team all contribute to a great product and service that our clients love. Everybody in the company is rewarded with a share of profit each December—we succeed together. Our much-loved products are in demand and are proven to make a difference to our clients’ lives. You’ll be selling world-leading software through a well-considered process that leaves room for personal flair. SaaS experience is extremely beneficial but strong communication skills, patience, curiosity, keenness to learn and friendliness are key to success in this role. Join our Rebel Alliance Creative Force is experiencing strong growth and as we scale our efforts in 2026 and beyond, we’re looking for enthusiastic individuals to join our diverse team of Jedis to help recruit new clients as they navigate the decision process, and transform them into long-term supporters. You’ll be a respected member of our remote global sales team and will be well supported with the tools, knowledge and answers you need to provide exceptional levels of service, and to make the most from solid sa",
-      "posted": "2026-08-05",
-      "score": 55,
-      "breakdown": {
-        "skills": 25,
-        "seniority": 70,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-08-07"
     },
     {
       "id": "demo-3",
