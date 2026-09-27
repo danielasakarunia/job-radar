@@ -1,25 +1,7 @@
 {
-  "updatedAt": "2026-09-27T02:05:21.311Z",
-  "count": 3,
+  "updatedAt": "2026-09-27T13:21:35.773Z",
+  "count": 2,
   "jobs": [
-    {
-      "id": "rem-2091100",
-      "title": "Senior QA Engineer",
-      "company": "Lemon.io",
-      "location": "Europe",
-      "source": "Remotive",
-      "link": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100",
-      "description": "Are you a talented QA looking for a remote job that lets you show your skills and get better compensation and career growth? Look no further than Lemon.io - the marketplace that connects you with hand-picked startups in the US and Europe. Requirements: 3+ years of experience in automation testing 2+ years of experience in manual testing 3+ years of experience working with Cypress or Selenium Exceptional attention to detail Good command of English, both written and spoken. Strong organizational skills — ability to work full-time remotely with no supervision Responsibility — we want to trust you! Soft skills — we don’t ask you to find a topic for small talk, but being just polite is OK. NOT YOUR TECH STACK? We're placing Senior Developers (4+ yrs commercial experience) across AI Agent Architecture, AI Automation Architecture, AI Engineering, Site Reliability Engineering, Platform Engineering, React Python, React Golang, Golang, React Java, React Ruby, Ruby, PHP Vue, Vue Node.js, React .NET, Android iOS, iOS Swift, Flutter Firebase, Solutions Engineer, Blockchain (Ethereum/Ethers.js/Wagmi/Viem/Solana), Angular Node.js, Vue .NET, Python Vue, DevOps, MLOps, Data Science, Angular PHP, Angular .NET, Symfony React, Symfony Vue, Symfony Angular, Python, Symfony JavaScript Next.js TypeScript, Data Analysis, React PHP, Data Engineering, Project Management, Product Management, Embedded Software Engineering, React Native Node, React Native React, React Native Ruby, React Native Python, Wo",
-      "posted": "2026-08-26",
-      "score": 67,
-      "breakdown": {
-        "skills": 33,
-        "seniority": 100,
-        "location": 100
-      },
-      "status": "New",
-      "firstSeen": "2026-08-28"
-    },
     {
       "id": "rem-1919266",
       "title": "Senior Independent AI Engineer / Architect",
