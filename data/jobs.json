@@ -1,7 +1,25 @@
 {
-  "updatedAt": "2026-11-27T05:33:35.121Z",
-  "count": 1,
+  "updatedAt": "2026-11-27T17:41:07.696Z",
+  "count": 2,
   "jobs": [
+    {
+      "id": "rem-2091212",
+      "title": "Produktspezialist:in (German-speaking)",
+      "company": "Creative Force ",
+      "location": "Europe, EMEA, Germany, European timezones",
+      "source": "Remotive",
+      "link": "https://remotive.com/remote-jobs/customer-service/produktspezialist-in-german-speaking-2091212",
+      "description": "You know SaaS. You like helping people get it right. And you'd rather have a real conversation than a hard sell. Do you speak German natively and want to help organisations get the most from a world-class SaaS platform? Then this might be the role you're looking for. Join a lean-by-design, globally recognised B2B SaaS company as the German-speaking specialist for our DACH+ markets. No cold calling, no quotas — just meaningful conversations that help interested people discover how our software makes their work easier, then supporting them brilliantly once they're on board. You won't be opening the market alone. Our marketing team already brings in German-speaking interest, and our experienced English-speaking sales colleagues handle these leads well. Your edge is simple and valuable: when a German-speaking prospect wants a demo auf Deutsch , or a new client wants onboarding and support in their own language, you're the person who makes that feel effortless — gründlich, verlässlich und auf den Punkt. Join our Rebel Alliance We're a diverse, remote crew that takes the work seriously without taking ourselves too seriously. You'll be a valued member of our global Client Success team, well supported with the tools, knowledge and people you need to do excellent work. In time you'll learn to work across teams and draw on our collective expertise — and you'll have real backing at every turn to grow into a confident product expert. What you'll do Run German-language demos for warm, int",
+      "posted": "2026-11-25",
+      "score": 55,
+      "breakdown": {
+        "skills": 25,
+        "seniority": 70,
+        "location": 100
+      },
+      "status": "New",
+      "firstSeen": "2026-11-27"
+    },
     {
       "id": "demo-3",
       "title": "Business Operations Manager",
